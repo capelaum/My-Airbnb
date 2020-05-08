@@ -1,5 +1,7 @@
 # My-Airbnb
 
+O projeto do desafio **Quartos do Airbnb** é um projeto que esta sendo criado no curso da **Gama Academy - Hiring Coders**. `:green_heart:`
+
 O  desafio é criar uma página similar a do [Airbnb](https://www.airbnb.com.br/) através do consumo da API de quartos, usando Javascript Vanilla e Flexbox para organizá-los em cards na tela, a partir [deste banco de dados aqui.](https://api.sheety.co/30b6e400-9023-4a15-8e6c-16aa4e3b1e72)
 
 **Resultados esperados  
@@ -35,11 +37,7 @@ não esperamos uma tela cópia do Airbnb, ok? Mas quanto mais próximo você
  chegar, mais desafiador fica de construir em cima e fazer algo 
 unicamente seu!
 
-Lembre-se de trocar ideias, processos e resultados com outras pessoas participantes do programa.  
-A atividade é individual, mas aproveite as maravilhas de ter um grupo para enriquecer seu conhecimento e entregas <3
-
 Suba o repositório no GitHub e sugerimos o Netlify para hospedagem.
 
-Na
- próxima semana, nosso conteúdo técnico será uma live onde o professor 
+Na próxima semana, nosso conteúdo técnico será uma live onde o professor 
 fará passo a passo a página e vocês poderão tirar dúvidas em tempo real!
