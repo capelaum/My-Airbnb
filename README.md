@@ -1,4 +1,4 @@
-# My Airbnb Challenge
+# My Airbnb Challenge :house:
 
 O projeto do desafio **Quartos do Airbnb** é um projeto que esta sendo criado no curso da **Gama Academy - Hiring Coders**. :green_heart:
 
@@ -35,15 +35,13 @@ Pensando em uma melhor experiência, você ainda pode adicionar outras funcional
   calcular o número de estadias e mostrar uma prévia do valor total de 
   hospedagem.
 
-Explore sua criatividade :) 
 
-<br>
 
-não esperamos uma tela cópia do Airbnb, ok? Mas quanto mais próximo você
+Explore sua criatividade :exclamation:
+
+
+Não esperamos uma tela cópia do Airbnb, ok? Mas quanto mais próximo você
  chegar, mais desafiador fica de construir em cima e fazer algo 
 unicamente seu!
 
 Suba o repositório no GitHub e sugerimos o Netlify para hospedagem.
-
-Na próxima semana, nosso conteúdo técnico será uma live onde o professor 
-fará passo a passo a página e vocês poderão tirar dúvidas em tempo real!
