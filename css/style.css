@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+.cards-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.info h2{
+    padding: 32px;
+}
+
+/* Odenação Busca*/
+
+.info {
+    padding-left: 32px;
+}
+
+.info-orders {
+    display: flex;
+    padding-left: 32px;
+}
+
+@media only screen and (max-width: 600px) {
+    .info-orders {
+        flex-direction: column;
+    }
+}
+
+.info-orders--button {
+    margin-right: 16px;
+    width: max-content;
+
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    padding: 8px 16px;
+    transition: all 0.2s ease-in-out;
+}
+
+.info-orders--button:hover {
+    background: black;
+    color: #ffffff;
+}
+
+@media only screen and (max-width: 600px) {
+    .info-orders--button {
+        margin-bottom: 8px;
+    }
+}
+
+/* Cards */
+
+#cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    border-radius: 30%;
+}
+
+.card:hover{
+    cursor: pointer;
+    transform: translateY(-10px);
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.6)
+}
+
+.card-img-top{
+    border-radius: 4% 4% 0 0;
+}
+
+div .card-body{
+    border-radius: 0 0 4% 4%;
+    color: #f8f9fa;
+    background-color: black;
+}
+
+footer {
+    margin-top: 64px;
+    border-top: 1px solid #333;
+    color: black;
+    align-items: center;
+}
+  
+.home{
+    padding: 18px;
+}
+
+.home a{
+    color: black;
+    text-decoration: none;
+}
+
+.home a:hover{
+    color: #ff385c;
+}
+
+.social{
+    text-align: center;
+    margin: 32px 0;
+}
+
+.social a{
+    color: black;
+    text-decoration: none;
+}
+
+.media-icon {
+    margin: 0 8px;
+    cursor: pointer;
+}
+
+.media-icon:hover {
+    color: #ff385c;
+}
+
+footer p{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
