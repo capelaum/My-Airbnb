@@ -5,14 +5,25 @@
     font-family: "Roboto";
 }
 
+.cards-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 /* Odenação */
 
 .ordenar {
     padding-left: 32px;
 }
 
-.ordenar h2{
-    padding: 32px;
+.ordenar h2,h6{
+    padding: 16px 32px;
+}
+
+.ordenar h6{
+    font-weight: bolder;
 }
 
 .ordenar-itens {
@@ -47,13 +58,6 @@
 }
 
 /* Cards */
-
-.cards-container{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-}
 
 #cards {
     display: flex;
