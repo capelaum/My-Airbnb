@@ -5,56 +5,55 @@
     font-family: "Roboto";
 }
 
+/* Odenação */
+
+.ordenar {
+    padding-left: 32px;
+}
+
+.ordenar h2{
+    padding: 32px;
+}
+
+.ordenar-itens {
+    display: flex;
+    padding-left: 32px;
+}
+
+@media only screen and (max-width: 600px) {
+    .ordenar-itens {
+        flex-direction: column;
+    }
+}
+
+.botao-ordenar {
+    margin-right: 18px;
+    width: max-content;
+    border: 1px solid #bebebe;
+    border-radius: 20px;
+    padding: 8px 12px;
+    transition: all 0.2s ease-in-out;
+}
+
+.botao-ordenar:hover {
+    background: black;
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .botao-ordenar {
+        margin-bottom: 8px;
+    }
+}
+
+/* Cards */
+
 .cards-container{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
 }
-
-.info h2{
-    padding: 32px;
-}
-
-/* Odenação Busca*/
-
-.info {
-    padding-left: 32px;
-}
-
-.info-orders {
-    display: flex;
-    padding-left: 32px;
-}
-
-@media only screen and (max-width: 600px) {
-    .info-orders {
-        flex-direction: column;
-    }
-}
-
-.info-orders--button {
-    margin-right: 16px;
-    width: max-content;
-
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    border-radius: 30px;
-    padding: 8px 16px;
-    transition: all 0.2s ease-in-out;
-}
-
-.info-orders--button:hover {
-    background: black;
-    color: #ffffff;
-}
-
-@media only screen and (max-width: 600px) {
-    .info-orders--button {
-        margin-bottom: 8px;
-    }
-}
-
-/* Cards */
 
 #cards {
     display: flex;
@@ -81,6 +80,8 @@ div .card-body{
     color: #f8f9fa;
     background-color: black;
 }
+
+/*************/
 
 footer {
     margin-top: 64px;
@@ -123,7 +124,6 @@ footer {
 
 footer p{
     text-align: center;
-    padding: 0;
     margin: 0;
 }
 

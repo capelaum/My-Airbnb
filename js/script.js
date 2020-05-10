@@ -10,6 +10,7 @@ async function fetchCards() {
 }
 
 // Rendering cards and maping
+
 function renderCards(cards) {
     cardsContainer.innerHTML = "";
     cards.map(renderCard);
@@ -52,50 +53,56 @@ render();
 
 //* Ordenar cards
 
+// Nome
 function orderByNameAZ() {
-    data.sort(function (a, b) {
-        return a.name > b.name ? 1 : b.name > a.name ? -1 : 0;
+
+    data.sort(function (x, y) {
+        return (x.name > y.name) ? true : (y.name > x.name) ? -1 : false;
     });
 
     renderCards(data);
 }
 
 function orderByNameZA() {
-    data.sort(function (a, b) {
-        return a.name < b.name ? 1 : b.name < a.name ? -1 : 0;
+    data.sort(function (x, y) {
+        return (x.name < y.name) ? true : (y.name < x.name) ? -1 : false;
     });
 
     renderCards(data);
 }
 
+// Por tipo
 function orderByType() {
-    data.sort(function (a, b) {
-        return a.property_type > b.property_type
-            ?  1 : b.property_type > a.property_type
-            ? -1 : 0;
+    data.sort(function (x, y) {
+        return (x.property_type > y.property_type) ?  true : 
+            (y.property_type > x.property_type) ? -1 : 
+            false;
     });
 
     renderCards(data);
 }
 
 function orderByPriceCrescent() {
-    data.sort(function (a, b) {
-        return a.price > b.price ? 1 : b.price > a.price ? -1 : 0;
+    data.sort(function (x , y) {
+        return (x.price > y.price) ? 1 : (y.price > x.price) ? -1 : 0;
     });
 
     renderCards(data);
 }
 
 function orderByPriceDecreasing() {
-    data.sort(function (a, b) {
-        return a.price < b.price ? 1 : b.price < a.price ? -1 : 0;
+    data.sort(function (x, y) {
+        return (x.price < y.price) ? 1 : (y.price < x.price) ? -1 : 0;
     });
 
     renderCards(data);
 }
 
-function handleSearch() {
-    let valueInput = document.querySelector("#searchInput").value.toUpperCase();
+
+// Busca
+
+function busca() {
+    let valueInput = document.querySelector("#input-busca").value.toUpperCase();
 
     const filteredResults = data.filter((places) => {
             const placesToSearchByName = places.name.toUpperCase();
