@@ -1,4 +1,4 @@
-<h1 align="center">My Airbnb Challenge</h1> :green_heart:
+<h1 align="center">My Airbnb Challenge :green_heart: </h1> 
 
 O projeto do desafio **Quartos do Airbnb** é um projeto que esta sendo criado pelo programa da **Gama Academy - Hiring Coders**. 
 
